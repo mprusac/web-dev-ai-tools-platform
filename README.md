@@ -78,17 +78,14 @@ The second assignment **directly builds upon the first**, enhancing it with dyna
 ## 🎓 Academic Context
 
 This project was developed exclusively for educational purposes as part of coursework at the
-Faculty of Organization and Informatics.
-
-All functional, structural, and technical requirements defined in the assignment specifications have been fully implemented.
+Faculty of Organization and Informatics. All functional, structural, and technical requirements defined in the assignment specifications have been fully implemented.
 
 ---
 
 ## 👤 Author
-
-Marin Prusac
-Faculty of Organization and Informatics
-Course: Web Application Development
+Marin Prusac␣␣
+Faculty of Organization and Informatics␣␣
+Course: Web Application Development␣␣
 Academic Year: 2023/2024
 
 ---
