@@ -24,26 +24,28 @@ The second assignment **directly builds upon the first**, enhancing it with dyna
 ---
 
 ## 🗂️ Project Structure
+```text
 /
 ├── server.js
 ├── html/
-│ ├── index.html
-│ ├── aboutAuthor.html
-│ ├── documentation.html
-│ ├── details.html
-│ └── ...
+│   ├── index.html
+│   ├── aboutAuthor.html
+│   ├── documentation.html
+│   ├── details.html
+│   └── ...
 ├── css/
-│ └── *.css
+│   └── *.css
 ├── js/
-│ ├── client/
-│ │ ├── *.js
-│ └── server/
-│ └── *.js
+│   ├── client/
+│   │   ├── *.js
+│   └── server/
+│       └── *.js
 ├── resources/
-│ ├── images/
-│ └── other/
+│   ├── images/
+│   └── other/
 ├── tools.csv
 └── README.md
+
 
 
 ---
