@@ -83,10 +83,11 @@ Faculty of Organization and Informatics. All functional, structural, and technic
 ---
 
 ## 👤 Author
-Marin Prusac␣␣
-Faculty of Organization and Informatics␣␣
-Course: Web Application Development␣␣
+Marin Prusac<br>
+Faculty of Organization and Informatics<br>
+Course: Web Application Development<br>
 Academic Year: 2023/2024
+
 
 ---
 
