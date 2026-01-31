@@ -1,5 +1,5 @@
 # AI Tools Web Platform  
-**Fundamentals of Web Technologies – Assignment 1 & 2**
+**Web Application Development – Assignment 1 & 2**
 
 ## 📌 Project Overview
 This project is a **web platform for browsing, filtering, and managing Artificial Intelligence (AI) tools**.  
