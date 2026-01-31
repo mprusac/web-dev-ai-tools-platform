@@ -46,9 +46,7 @@ The second assignment **directly builds upon the first**, enhancing it with dyna
 ├── tools.csv
 └── README.md
 
-
-
----
+```
 
 ## 🌐 Features
 
