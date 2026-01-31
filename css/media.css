@@ -1,0 +1,146 @@
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+
+  .brand {
+    flex-direction: column;
+    gap: 0.2em;
+  }
+
+  #logo {
+    height: 30px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    padding-bottom: 0.5em;
+  }
+
+  main {
+    padding: 1.5em;
+    margin-top: 100px;
+  }
+
+
+  .slides {
+    padding: 1em;
+    width: 100%;
+  }
+
+  .slide h3 {
+    font-size: 1.2em;
+  }
+
+  .slide p {
+    font-size: 0.9em;
+  }
+
+  .klizac .strelice .strelica {
+    font-size: 1.2em;
+    padding: 6px 10px;
+  }
+
+  .cpp-sklopivi summary {
+    font-size: 1em;
+  }
+
+
+  .galerija {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.6rem;
+  }
+
+  .thumb {
+    border-radius: 6px;
+  }
+
+
+  table {
+    font-size: 0.9em;
+    display: block;
+    overflow-x: auto;
+  }
+
+
+  #obrazac {
+    padding: 1em;
+  }
+
+  #obrazac form {
+    width: 100%;
+    padding: 0;
+  }
+
+  .checkbox-grupa,
+  .radio-grupa {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+
+  .video-obrub {
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+
+  .video-obrub iframe {
+    height: 100%;
+  }
+}
+
+iframe {
+  height: 200px;
+}
+
+@media (max-width: 800px) {
+  #dokumentacija table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5em;
+  }
+
+  #dokumentacija thead,
+  #dokumentacija tbody,
+  #dokumentacija tr,
+  #dokumentacija td,
+  #dokumentacija th {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .galerija {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+
+@media (max-width: 1024px) {
+  .galerija {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .galerija {
+    column-count: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    margin-top: 130px;
+  }
+}

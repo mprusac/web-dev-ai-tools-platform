@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="author" content="Marin Prusac">
+    <meta name="description" content="Web aplikacija za prikaz alata umjetne inteligencije">
+    <meta name="keywords" content="AI, umjetna inteligencija, alati, mprusac23, FOI">
+    <title>Početna - AI alati</title>
+    <link rel="stylesheet" href="dizajn/mprusac23.css">
+    <link rel="stylesheet" href="dizajn/media.css">
+    <script src="/JSKlijent/mprusac23.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="brand">
+        <a href="index.html">
+          <img src="resursi/slike/logo.png" alt="AI Logo" id="logo">
+        </a>
+        <h1>AI alati</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Početna</a></li>
+          <li><a href="oautoru.html">O autoru</a></li>
+          <li><a href="dokumentacija.html">Dokumentacija</a></li>
+          <li><a href="obrazac.html">Obrazac validacija</a></li>
+           <li><a href="/alati">AI alati</a></li>
+    <li><a href="/api/alati" target="_blank">REST API</a></li>
+          <li><a href="dodatna.html">Dodatna</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="klizac">
+        <h2>Alati umjetne inteligencije</h2>
+        <div class="klizac">
+          <input type="radio" name="slider" id="slide1" checked>
+          <input type="radio" name="slider" id="slide2">
+          <input type="radio" name="slider" id="slide3">
+
+          <div class="slides">
+            <div class="slide s1">
+              <h3>ChatGPT</h3>
+              <p>Napredni alat za generiranje teksta, datoteka i sl.</p>
+              <a href="detalji.html#chatgpt" target="_blank" class="gumb-link">Više</a>
+            </div>
+
+            <div class="slide s2">
+              <h3>Perplexity</h3>
+              <p>AI alat za pretraživanje informacija i odgovora.</p>
+              <a href="detalji.html#perplexity" target="_blank" class="gumb-link">Više</a>
+            </div>
+
+            <div class="slide s3">
+              <h3>Gemini</h3>
+              <p>Multimodalni AI alat za tekst, slike i kod.</p>
+              <a href="detalji.html#gemini" target="_blank" class="gumb-link">Više</a>
+            </div>
+          </div>
+
+          <div class="navigacija">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+          </div>
+
+          <div class="strelice">
+            <button id="prethodni" class="strelica prev strelica1">❮</button>
+            <button id="sljedeci" class="strelica next strelica1">❯</button>
+
+            <button id="prethodni2" class="strelica prev strelica2">❮</button>
+            <button id="sljedeci2" class="strelica next strelica2">❯</button>
+
+            <button id="prethodni3" class="strelica prev strelica3">❮</button>
+            <button id="sljedeci3" class="strelica next strelica3">❯</button>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="cpp">
+        <h2>Često postavljana pitanja</h2>
+        <table>
+          <tr>
+            <th>Pitanje</th>
+            <th>Odgovor</th>
+          </tr>
+          <tr>
+            <td><strong>Što je AI?</strong></td>
+            <td>Umjetna inteligencija je sposobnost računala da oponaša ljudsko razmišljanje.</td>
+          </tr>
+          <tr class="parni">
+            <td><strong>Koji su popularni AI alati?</strong></td>
+            <td>ChatGPT, Perplexity, Gemini i mnogi drugi.</td>
+          </tr>
+          <tr>
+            <td><strong>Jesu li AI alati besplatni?</strong></td>
+            <td>Neki su besplatni, dok drugi imaju napredne verzije uz plaćanje.</td>
+          </tr>
+          <tr class="parni">
+            <td><strong>Čemu AI može pomoći?</strong></td>
+            <td>U automatizaciji, obradi jezika, kreiranju sadržaja i još mnogo toga.</td>
+          </tr>
+          <tr>
+            <td><strong>Kako mogu isprobati AI alat?</strong></td>
+            <td>Većinu možete isprobati putem web stranice alata ili registracijom.</td>
+          </tr>
+        </table>
+
+        <h3>Interaktivni ČPP</h3>
+        <div class="cpp-sklopivi">
+          <details>
+            <summary>ČPP 1: Što je ChatGPT?</summary>
+            <p>ChatGPT je AI model za generiranje teksta koji omogućuje vođenje razgovora, odgovaranje na pitanja i još mnogo toga.</p>
+          </details>
+          <details>
+            <summary>ČPP 2: Čime se Claude AI razlikuje od ChatGPT-a?</summary>
+            <p>Claude AI koristi drugačiju arhitekturu i fokusira se na sigurnost i kontekstualnost.</p>
+          </details>
+          <details>
+            <summary>ČPP 3: Kako Perplexity AI pomaže u učenju?</summary>
+            <p>Pretražuje informacije i daje koncizne, citirane odgovore koji pomažu pri učenju i istraživanju.</p>
+          </details>
+          <details>
+            <summary>ČPP 4: Je li korištenje ovih alata besplatno?</summary>
+            <p>Neki alati nude osnovne funkcije besplatno, dok za napredne značajke traže pretplatu.</p>
+          </details>
+          <details>
+            <summary>ČPP 5: Smijem li koristiti AI alat za školske zadatke?</summary>
+            <p>AI alati mogu pomoći, ali je važno razumjeti zadatak i poštivati pravila škole ili fakulteta.</p>
+          </details>
+        </div>
+      </section>
+
+      <section id="tekstovi">
+        <h2>Uvod u AI alate</h2>
+        <p>
+          <mark>Umjetna inteligencija (AI)</mark> sve se više koristi u svakodnevnom životu, posebno u obliku alata koji razumiju i generiraju jezik. 
+          <span class="naglaseno">ChatGPT je moćan alat temeljen na modelu dubokog učenja</span> koji može stvarati koherentan tekst, odgovarati na pitanja i voditi razgovor u prirodnom jeziku.
+          Njegova primjena u obrazovanju, poslovanju i razvoju softvera omogućuje korisnicima uštedu vremena i poboljšanje produktivnosti.
+          AI alati poput ChatGPT-a otvaraju nove mogućnosti za automatizaciju i kreativno pisanje. Alat omogućuje brzo generiranje sadržaja za web, mobilne aplikacije i automatizirane servise.
+        </p>
+        <p class="fusnota">
+          <sup>*</sup> Prompt: “Napiši informativni paragraf o svakodnevnoj upotrebi ChatGPT-a i njegovim prednostima.”
+        </p>
+
+        <h2>Primjena vizualnih AI sustava</h2>
+        <p>
+          <mark>Vizualni AI alati</mark>, poput Midjourneyja i DALL-E, omogućuju korisnicima stvaranje realističnih ili umjetničkih slika iz jednostavnih tekstualnih opisa. 
+          Koriste se u područjima kao što su grafički dizajn, edukacija, marketing i brza izrada prototipa.
+          <span class="naglaseno">Kombiniranjem kreativnosti korisnika i mogućnosti neuronskih mreža</span>, ovi alati mogu generirati jedinstvene vizualne prikaze bez potrebe za crtanjem.
+          Njihova upotreba brzo raste i postaje sastavni dio digitalnih industrija. Vizualni AI se koristi i u edukaciji za stvaranje ilustracija koje pomažu učenju.
+        </p>
+        <p class="fusnota">
+          <sup>*</sup> Prompt: “Generiraj paragraf o tome kako vizualni AI alati pomažu dizajnerima i kreativcima.”
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p><strong>Marin Prusac © 2025</strong></p>
+      <div class="ikone">
+        <a href="https://chat.openai.com/" target="_blank">
+          <img src="resursi/slike/chatgpt.png" alt="ChatGPT">
+        </a>
+        <a href="https://www.perplexity.ai/" target="_blank">
+          <img src="resursi/slike/perplexity.png" alt="Perplexity">
+        </a>
+        <a href="https://gemini.google.com/" target="_blank">
+          <img src="resursi/slike/gemini.png" alt="Gemini">
+        </a>
+      </div>
+      <div class="validator">
+        <a href="https://validator.w3.org/check?uri=https://spider.foi.hr/OWT/2025/zadaca_01/mprusac23/index.html" target="_blank">
+          <img src="resursi/slike/HTML5.png" alt="HTML5 validator">
+        </a>
+        <a href="https://validator.w3.org/check?uri=https://spider.foi.hr/OWT/2025/zadaca_01/mprusac23/css/mprusac23.css" target="_blank">
+          <img src="resursi/slike/css.png" alt="CSS validator">
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

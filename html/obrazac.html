@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marin Prusac">
+    <meta name="description" content="Obrazac za AI alat">
+    <meta name="keywords" content="AI, obrasci, input, mprusac23, FOI">
+    <title>Obrasci - AI alati</title>
+    <link rel="stylesheet" href="dizajn/mprusac23.css">
+    <link rel="stylesheet" href="dizajn/media.css">
+     <script src="/JSKlijent/mprusac23.js"></script>
+  </head>
+  
+
+  <body>
+    <header>
+      <div class="brand">
+        <a href="index.html">
+          <img src="resursi/slike/logo.png" alt="AI Logo" id="logo">
+        </a>
+        <h1>AI alati</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Početna</a></li>
+          <li><a href="oAutoru.html">O autoru</a></li>
+          <li><a href="dokumentacija.html">Dokumentacija</a></li>
+          <li><a href="obrazac.html">Obrazac validacija</a></li>
+           <li><a href="/alati">AI alati</a></li>
+    <li><a href="/api/alati" target="_blank">REST API</a></li>
+          <li><a href="dodatna.html">Dodatna</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="obrazac">
+        <h2>Prijava za testiranje AI alata</h2>
+        <form action="/obrazac" method="POST" novalidate>
+          <div>
+            <label for="ime">Ime:</label>
+            <input type="text" id="ime" name="ime" required aria-required="true">
+          </div>
+
+          <div>
+            <label for="prezime">Prezime:</label>
+            <input type="text" id="prezime" name="prezime">
+          </div>
+
+          <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required aria-required="true">
+          </div>
+
+          <div>
+            <label for="tel">Telefon:</label>
+            <input type="tel" id="tel" name="tel">
+          </div>
+
+          <div>
+            <label for="datum">Datum testiranja:</label>
+            <input type="date" id="datum" name="datum">
+          </div>
+
+          <div>
+            <label for="vrijeme">Vrijeme:</label>
+            <input type="time" id="vrijeme" name="vrijeme">
+          </div>
+
+<div>
+  <label for="preciznost">Preciznost AI odgovora (0–10):</label>
+  <input type="number" id="preciznost" name="preciznost" min="0" max="10">
+</div>
+
+
+<div>
+  <label for="lozinka">Testna lozinka:</label>
+  <input type="password" id="lozinka" name="lozinka">
+</div>
+
+
+          <div>
+            <label for="alati">Odaberi AI alat:</label>
+            <select id="alati" name="alati">
+              <option value="chatgpt">ChatGPT</option>
+              <option value="perplexity">Perplexity</option>
+              <option value="gemini">Gemini</option>
+            </select>
+          </div>
+
+          <div>
+            <label>Isprobani alati:</label>
+            <div class="checkbox-grupa">
+              <div>
+                <input type="checkbox" id="ch" name="isprobano" value="chatgpt">
+                <label for="ch">ChatGPT</label>
+              </div>
+              <div>
+                <input type="checkbox" id="pp" name="isprobano" value="perplexity">
+                <label for="pp">Perplexity</label>
+              </div>
+              <div>
+                <input type="checkbox" id="gm" name="isprobano" value="gemini">
+                <label for="gm">Gemini</label>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <label>Spol:</label><br>
+            <input type="radio" id="spol-m" name="spol" value="muško" required>
+            <label for="spol-m">Muško</label>
+            <input type="radio" id="spol-z" name="spol" value="žensko">
+            <label for="spol-z">Žensko</label>
+          </div>
+
+          <div>
+            <label for="boja">Omiljena boja sučelja:</label>
+            <input type="color" id="boja" name="boja" class="boja-polje"><br>
+          </div>
+
+          <div>
+            <label for="dokument">Priloži dokumentaciju (PDF):</label>
+            <input type="file" id="dokument" name="dokument" accept=".pdf">
+          </div>
+
+          <div>
+            <label for="komentar">Komentar:</label>
+            <textarea id="komentar" name="komentar" rows="4" cols="40" aria-required="true"></textarea>
+          </div>
+
+          <div class="button-grupa">
+            <input type="submit" value="Pošalji">
+            <input type="reset" value="Resetiraj">
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p><strong>Marin Prusac © 2025</strong></p>
+      <div class="ikone">
+        <a href="https://chat.openai.com/" target="_blank">
+          <img src="resursi/slike/chatgpt.png" alt="ChatGPT">
+        </a>
+        <a href="https://www.perplexity.ai/" target="_blank">
+          <img src="resursi/slike/perplexity.png" alt="Perplexity">
+        </a>
+        <a href="https://gemini.google.com/" target="_blank">
+          <img src="resursi/slike/gemini.png" alt="Gemini">
+        </a>
+      </div>
+      <div class="validator">
+        <a href="https://validator.w3.org/check?uri=https://spider.foi.hr/OWT/2025/zadaca_01/mprusac23/html/obrazac.html" target="_blank">
+          <img src="resursi/slike/HTML5.png" alt="HTML5 validator">
+        </a>
+        <a href="https://validator.w3.org/check?uri=https://spider.foi.hr/OWT/2025/zadaca_01/mprusac23/css/mprusac23.css" target="_blank">
+          <img src="resursi/slike/css.png" alt="CSS validator">
+        </a>
+      </div>
+    </footer>
+      
+   <script src="/JSklijent/mprusac23_obrazac.js"></script>
+  </body>
+</html>
